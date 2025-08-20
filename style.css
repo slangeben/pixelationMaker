@@ -7,7 +7,7 @@ html, body {
 canvas {
   display: block;
 }
-body, input, button, span, div {
+input, button, span, div {
   text-transform: lowercase;
   font-family: sans-serif; /* optional */
   overflow: hidden;
