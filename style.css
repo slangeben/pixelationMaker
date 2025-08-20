@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+body, input, button, span, div {
+  text-transform: lowercase;
+  font-family: sans-serif; /* optional */
+}
+#canvas-container canvas {
+  display: block;
+}
+
+#footer-container {
+  position: absolute;
+  width: 100%;
+  bottom: 50px;
+  text-align: center;
+  z-index: 10;
+}
+
+footer {
+  bottom: 70%;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ff69b4;
+;
+}
+
+footer a {
+  color: #ff69b4; /* cute pink */
+  text-decoration: none; /* removes underline */
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline; /* adds underline on hover */
+  color: #ff85c1; /* slightly different pink on hover */
+}
