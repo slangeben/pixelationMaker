@@ -5,6 +5,7 @@ html, body {
 }
 
 canvas {
+  overlow: hidden;
   display: block;
 }
 body, input, button, span, div {
