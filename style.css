@@ -1,7 +1,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 canvas {
@@ -10,7 +9,6 @@ canvas {
 body, input, button, span, div {
   text-transform: lowercase;
   font-family: sans-serif; /* optional */
-  
 }
 #canvas-container canvas {
   display: block;
