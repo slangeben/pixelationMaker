@@ -10,7 +10,7 @@ canvas {
 input, button, span, div {
   text-transform: lowercase;
   font-family: sans-serif; /* optional */
-  overflow: hidden;
+  
 }
 #canvas-container canvas {
   display: block;
