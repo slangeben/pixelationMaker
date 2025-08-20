@@ -108,3 +108,4 @@ function mousePressed() {
   // Store pixel size per frozen area
   frozenAreas.push({ img: lens, x: x, y: y, size: brushSize, pixelSize: pixelSize });
 }
+// end
